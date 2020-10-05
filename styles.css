@@ -1,0 +1,230 @@
+html {
+    min-height: 80%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: #2e2e2e;
+}
+
+#Encabezado {
+    background-color: #b5224f;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#TituloEn {
+    font-family: letra1;
+    font-size: 50px;
+    margin: 0;
+}
+ 
+#Contenido {
+    padding: 10px;
+    color: white;
+    font-family: letra3;
+    margin-bottom: auto;
+}
+
+#Img1 {
+    float: left;
+    width: 30%;
+}
+
+#img2 {
+    float: right;
+    width: 30%;
+}
+
+#Jona {
+    float: right;
+    width: 20%;
+    margin: 0 250px 0 0;
+}
+
+.Texto1 {
+    float: left;
+    margin: 0 10px;
+    width: 30%;
+    text-align: center;
+    margin: 2rem auto;
+    margin: 30px 30px 30px 70px;
+}
+
+#menu ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #b5224f;
+}
+
+#menu li {
+    font-family: letra2;
+    font-size: 25px;
+    float: left;
+    margin: 10px;
+    background-color: #b5224f;
+}
+
+#menu {
+    background-color: #b5224f;
+    float: left;
+    position: fixed;
+}
+
+#menu- {
+    height: 47px;
+    width: 558px;
+    border: 0;
+}
+
+#Encabezado img {
+    width: 3%;
+    float: right;
+    background-color: white;
+    padding: 5px;
+    margin: 15px 20px 20px 20px;
+}
+
+ul :hover {
+    color: red;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#ConDatos {
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 10px 100px;
+}
+
+#DatosGen {
+    width: 50%;
+    float: left;
+}
+
+#pieindex {
+   height: 70px;
+   margin-top: 633px;
+}
+
+#pieredes {
+    height: 70px;
+    margin-top: 185px;
+}
+
+#pieDatos {
+    height: 70px;
+    margin-top: 363px;
+}
+
+.flooter {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+#actl {
+    float: left;
+    margin-top: 25px;
+    font-family: letra2;
+    font-size: 25px;
+}
+
+.flooter img {
+    width: 57px;
+}
+
+#imgeco {
+    margin: 0.4% 0% 0% 31%;
+}
+
+#imggit {
+    float: right;
+    margin-top: 5px;
+}
+
+#txgit {
+    margin-top: 23px;
+    float: right;
+}
+
+#txgit a {
+    text-decoration: none;
+    color: white;
+}
+
+#txgit :hover {
+    color: red;
+}
+
+#ContLinux {
+    color: white;
+    display: block;
+}
+
+#ContLinux img {
+    float: right;
+    margin: 10px 70px 10px 10px;
+}
+
+#ContLinux h1, h2, p, ul {
+    margin: 0px 10px 10px 10px;
+}
+
+#ContLinux a {
+    color: red;
+    font-size: 20px;
+}
+
+#ContLinux p {
+    width: 50%;
+    font-size: 20px;
+}
+
+#ContLinux ul a {
+    text-decoration: none;
+    color: red;
+}
+
+#ContLinux li {
+    margin: 10px;
+}
+
+#vacioRL {
+    width: 20%;
+}
+
+#vacioDE {
+    width: 40%;
+    float: left;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: letra1;
+    src: url(./fuentes/funt.ttf);
+}
+
+@font-face {
+    font-family: letra2;
+    src: url(./fuentes/Avenus.ttf);
+}
+
+@font-face {
+    font-family: letra3;
+    src: url(./fuentes/ATypewriterForMe.ttf-);
+}
+
+/*Esto es un comentario en css*/ 
